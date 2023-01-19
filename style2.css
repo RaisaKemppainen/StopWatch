@@ -21,7 +21,7 @@ body{
   section{
       background-color: #f6e9e9;
       width: 50%;
-      padding: 20px 0;
+      padding: 20px 20px;
       padding-bottom: 50px;
       border-radius: 10px;
       display: flex;
@@ -42,7 +42,7 @@ body{
       position: relative;
       width: 75%;
       background: #ffffff;
-      padding: 40px 0;
+      padding: 40px 20px;
       font-family: 'Roboto mono',monospace;
      /* color: #0381bb;*/
      background-image: linear-gradient(to top, #06c2e7 0% , #110b5e 100%);
@@ -144,3 +144,12 @@ body{
         font-size: 23px;
     }
     }
+
+    @media only screen and (max-width: 400px){
+        * {
+            font-size: 60%;
+        }
+
+      }
+
+    
